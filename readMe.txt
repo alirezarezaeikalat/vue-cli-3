@@ -22,12 +22,12 @@
 
 ////   DEPLOYMENT  ///
 7. Deployment by using Hosting in firebase (very nice)
-    a. first build the project in firebase then go to hosting:
+    a. first make the project in firebase then go to hosting:
     
     b. first install firebase tools globally:
       npm install -g firebase-tools
     
-    c. Then login to your account
+    c. Then login to your account in cli
       firebase login
     
     d. Then initialize your firebase project:
@@ -53,7 +53,7 @@
 ////   INSTANT PROTOTYPING  /////
 
     h. To use instant portotyping first we must install:
-        install -g @vue/cli-service-global
+        npm install -g @vue/cli-service-global
           by this we have the build and serve 
           ability for the components outside the projects
         To run the component:
